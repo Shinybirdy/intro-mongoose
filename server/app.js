@@ -5,6 +5,10 @@ var mongoose = require('mongoose');
 //require model
 var User = require('../models/user');
 
+// require routes
+var genUser= require('../routes/gen_user');
+var millie = require('../routes/millie');
+
 // get the express app
 var app = express();
 
